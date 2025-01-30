@@ -24,6 +24,12 @@
     text-decoration-thickness:5px ;
     text-underline-offset: 10px;
 }
+.active{
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 200, 3);
+    text-decoration-thickness:5px ;
+    text-underline-offset: 10px;
+}
 /* calendar-section */
 .calendar-section h1 {
     font-size: 70px;
