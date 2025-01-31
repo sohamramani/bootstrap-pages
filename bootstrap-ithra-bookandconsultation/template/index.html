@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Book & Consultation</title>
+    <script src="https://kit.fontawesome.com/c0c00adff1.js" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="../css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- navbar section  -->
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class=" collapse navbar-collapse" id="n_bar">
+                    <div class="navbar-menu col-lg-9">
+                        <div class="d-flex d-lg-block align-items-center justify-content-between flex-column">
+                          <span class="hover"><a class="text-decoration-none text-dark m-2 " href="#login">Login</a></span> 
+                          <span class="hover"><a class="text-decoration-none text-dark m-2 " href="#mycourses">My Courses</a></span>
+                          <span class="hover"><a class="text-decoration-none text-dark m-2 " href="#account">Account</a></span>
+                        </div> 
+                        <div class="navbar-menu-2 d-flex d-lg-block align-items-center justify-content-between flex-column">
+                          <span class="hover"><a class="text-decoration-none text-dark m-2" href="#home">Home</a></span>
+                          <span class="hover"><a class="text-decoration-none text-dark m-2 " href="#courses">Courses</a></span>
+                          <span class="active"><a class="text-decoration-none text-dark m-2" href="#bookandconsultation">Book & Consultation</a></span>
+                          <span class="hover"><a class="text-decoration-none text-dark m-2 " href="#about">About</a></span>
+                          <span class="hover"><a class="text-decoration-none text-dark m-2 " href="#faq">FAQ</a></span>
+                          <span><a class="icon text-decoration-none text-dark m-2 " href="javascript:void(0);" onclick="myFunction()">&#9776;</a></span>
+                        </div> 
+                      </div>
+                      <div class="col-lg-3 d-flex d-lg-block align-items-center justify-content-between flex-column">
+                        <img src="../images/ithra-black-logo.png" alt="Logo" class="float-end" >
+                      </div>
+                </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+                    <span class="fa-solid fa-bars text-dark fs-1"></span>
+                  </button>
+            </nav>
+        </header>
+      <!-- Consultation-section -->
+        <section class="consultation-section">
+            <h1 class="my-5">Book a Consultation</h1>
+            <p class="mb-5 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                Lorem ipsum </br> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. 
+                Lorem ipsum dolor sit amet,</br> consectetur adipiscing elit, sed do eiusmod tempor, 
+                Lorem ipsum dolor sit amet, consectetur </br> adipiscing elit, sed do eiusmod tempor.</p>
+        </section>
+    <!-- form section -->
+        <form action="#">
+            <div class="form-section pb-5">
+                <!-- fullname -->
+                <label for="fullname" class="form-check-label fs-2">Full name:</label><br>  
+                <input class="rounded-5 w-100 border-2 px-3 py-2 fs-3"  type="text" id="fullname" name="fullname" placeholder="fullname" required> &nbsp <br>
+                <!-- email -->
+                <label for="email" class="form-check-label fs-2">Email:</label><br> &nbsp
+                <input class="rounded-5 w-100 border-2 px-3 py-2 fs-3" type="text" id="email" name="email" placeholder="email" required> &nbsp<br>
+                <!-- phonenumber -->
+                <label for="phonenumber" class="form-check-label fs-2">Phone number:</label><br>&nbsp
+                <input class="rounded-5 w-100 border-2 px-3 py-2 fs-3" type="text" id="phonenumber" name="phonenumber" placeholder="phonenumber" maxlength="10" minlength="10" required >&nbsp<br>
+                <!-- checkbox -->
+                <label for="checkbox" class="form-check-label fs-3">Why do you want to book this consultation session?</label><br>&nbsp<br>
+                <input class="form-check-input border-2 me-2 p-2 border-black" type="checkbox" id="ithra Academy" name="ithra Academy" value="ithra Academy">
+                <label for="ithra Academy" class="form-check-label fs-4"> Inquiries about Ithra Academy</label><br>&nbsp<br>
+                <input class="form-check-input border-2 me-2 p-2 border-black" type="checkbox" id="domains" name="domains" value="domains">
+                <label for="domains" class="form-check-label fs-4"> Inquiries about the domains</label><br>&nbsp<br>
+                <input class="form-check-input border-2 me-2 p-2 border-black" type="checkbox" id="about-certain-course" name="about-certain-course" value="about-certain-course">
+                <label for="about-certain-course" class="form-check-label fs-4"> Inquiries about certain course</label><br>&nbsp<br>
+                <input class="form-check-input border-2 me-2 p-2 border-black" type="checkbox" id="other" name="other" value="other">
+                <label for="other" class="form-check-label fs-4"> Other</label><br>&nbsp
+                <input class="rounded-5 w-100 border-2 px-3 py-2 fs-3" type="text" id="other-reason" name="other-reason" placeholder="other-reason"><br>&nbsp<br>
+                <!-- Tell Us More -->
+                <label for="tell-us-more" class="form-check-label fs-3">Tell Us More (optional) :</label><br>&nbsp
+                <textarea class="rounded-5 w-100 border-2 px-3 py-2 fs-3" id="tell-us-more" name="tell-us-more" rows="5" cols="33" placeholder="Tell Us More..."></textarea><br>&nbsp&nbsp<br>
+                <!-- date and time -->
+                <label for="date-and-time" class="form-check-label fs-3">Please select the preferred date and time :</label><br>&nbsp
+                <textarea class="rounded-5 w-100 border-2 px-3 py-2 fs-3" id="date-and-time" name="date-and-time" rows="5" cols="33" placeholder="Calendar view showing workdays of next month only" ></textarea>&nbsp<br>
+                <!-- checkbox for time -->
+                <input class="form-check-input border-2 me-2 p-2 border-black" type="checkbox" id="time-1" name="time-1" value="time-1">
+                <label for="time-1" class="form-check-label fs-4">8:00 am - 8:30 am</label><br>&nbsp<br>
+                <input class="form-check-input border-2 me-2 p-2 border-black" type="checkbox" id="time-2" name="time-2" value="time-2">
+                <label for="time-2" class="form-check-label fs-4">8:00 am - 8:30 am</label><br>&nbsp<br>
+                <input class="form-check-input border-2 me-2 p-2 border-black" type="checkbox" id="time-3" name="time-3" value="time-3">
+                <label for="time-3" class="form-check-label fs-4">8:00 am - 8:30 am</label><br>&nbsp<br>
+                <input class="form-check-input border-2 me-2 p-2 border-black" type="checkbox" id="time-4" name="time-43" value="time-4">
+                <label for="time-4" class="form-check-label fs-4">8:00 am - 8:30 am</label><br>&nbsp<br>
+                <input class="form-check-input border-2 border-black me-2 p-2" type="checkbox" id="time-5" name="time-5" value="time-5">
+                <label for="time-5" class="form-check-label fs-4">8:00 am - 8:30 am</label><br>&nbsp<br>
+                <br>&nbsp<br>
+                <!-- submit button -->
+                <button type="submit" class="btn btn-warning rounded-5 px-sm-5 py-2 cal-btn">Book Now</button>
+            </div>
+        </form>
+    </div>
+<!-- footer section -->
+    <div class="bg-black">
+      <footer class="container pt-5" >
+        <div class="text-light row my-5 text-center text-lg-start">
+          <div class="col-lg-4 mb-5">
+            <p>Contact Us</p>
+            <p>International: +966-13-816-9799</p>
+            <p>Toll Free: 800-122-1224</p>
+            <p>Email: info@ithra.com</p>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <p>Quick Links</p>
+            <p>About Ithra Academy</p>
+            <p>Courses</p>
+            <p>Coaching</p>
+            <p>FAQ</p>
+            <p>About Ithra</p>
+            <p>Visit Ithra</p>
+            <p>Ithra Website</p>
+          </div>
+          <div class="col-lg-4 mb-5">
+            <p>Quick Links</p>
+            <p>About Ithra Academy</p>
+            <p>Courses</p>
+            <p>Coaching</p>
+            <p>FAQ</p>
+            <p>About Ithra</p>
+            <p>Visit Ithra</p>
+            <p>Ithra Website</p>
+          </div>
+        </div>
+        <!-- footer-brand-section -->
+        <div class="text-light row ">
+          <div class="col-lg-8 text-center d-lg-flex align-items-lg-end mb-4">
+            <i class="fa-brands fa-facebook fa-xl me-3"></i>
+            <i class="fa-brands fa-square-instagram fa-xl me-3"></i>
+            <i class="fa-brands fa-twitter fa-xl me-3"></i>
+            <i class="fa-brands fa-youtube fa-xl me-3"></i>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <img class="mx-auto d-block" src="../images/ithra-white-logo.png.png" alt="Logo">
+          </div>
+        </div>
+        <div class=" container bg-light p-1 mb-3"></div>
+
+        <!-- Terms & Conditions section -->
+        <div class="text-light row">
+          <p class="col-lg-5 text-center text-lg-start">© 2021 Saudi Aramco Oil Co. King Abdulaziz Center for World Culture </p>
+          <p class="col-lg-2 text-center text-lg-start">Terms & Conditions</p>
+          <p class="col-lg-2 text-center text-lg-start">Privacy Policy</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="../css/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

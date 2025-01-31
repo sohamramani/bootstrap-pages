@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar section */
+.navbar-menu a{
+    font-size: 25px;
+}
+.navbar-menu-2 .icon {
+    font-size: 40px;
+    display: none;
+}
+.hover:hover {
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 200, 3);
+    text-decoration-thickness:5px ;
+    text-underline-offset: 10px;
+}
+.active{
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 200, 3);
+    text-decoration-thickness:5px ;
+    text-underline-offset: 10px;
+}
+/* consultation-section */
+.consultation-section h1 {
+    font-size: 52px;
+}
+.consultation-section p {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 320px) {
+    .consultation-section h1 {
+        font-size: 40px
+    }
+}
+/* submit button */
+.cal-btn {
+    font-size: 20px;
+}
+
